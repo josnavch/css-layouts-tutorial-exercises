@@ -7,14 +7,17 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h2 id="myFirstH2">I need to be invisible</h2>
-		<h2 id="mySecondH2">I need to be invisible and gone from the layout</h2>
+		<h2 id="myFirstH2" style="visibility: hidden;">I need to be invisible</h2>
+		<h2 id="mySecondH2" style="display: none;">I need to be invisible and gone from the layout</h2>
 		<ul>
-			<li>My name</li>
-			<li>is</li>
-			<li>Bond...</li>
+			<li style="display: inline;">My name</li>
+			<li style="display: inline;">is</li>
+			<li style="display: inline;">Bond...</li>
 		</ul>
-		<p>This is a <strong>paragraph</strong>, with some words more <strong>important</strong> than others</p>
+		<p>
+			This is a <strong style="display: block;">paragraph</strong>, with some words more <strong style="display: block;">important</strong> than
+			others
+		</p>
 		<p>This is another paragraph.</p>
 	</body>
 </html>
