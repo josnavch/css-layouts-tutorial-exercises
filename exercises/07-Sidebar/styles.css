@@ -1,5 +1,14 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;
-    float: left;
+#wrapper {
+	background: grey;
 }
-#content{background: yellow;}
+#sidebar {
+	background: blue;
+	padding: 50px;
+	width: 100px;
+	display: inline-block;
+}
+#content {
+	background: yellow;
+	padding: 50px;
+	display: inline-block;
+}

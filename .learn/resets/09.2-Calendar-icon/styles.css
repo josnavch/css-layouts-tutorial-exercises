@@ -42,8 +42,7 @@
 	width:4px;
 	height:14px;
 	background:blue;
-    z-index:2;
-    position: relative;
+	z-index:2;
 	}
 .calendar em:before{left:13px;}	
 .calendar em:after{right:13px;}	

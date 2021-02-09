@@ -20,6 +20,16 @@ body {
 	margin: 0;
 }
 
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+section {
+	width: 750px;
+	height: 400px;
+}
+
 header,
 nav,
 section {
@@ -30,9 +40,50 @@ section {
 
 header {
 	padding: 10px 0;
+	width: 960px;
 }
 
 nav,
 section {
-	padding: 100px 0;
+	padding: 10px 0;
+	float: left;
+}
+nav {
+	width: 200px;
+	margin-right: 10px;
+	height: 400px;
+}
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2980b9;
+  color: #FFF;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+}
+
+header,
+nav,
+section {
+  border: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+nav, section {
+  padding: 200px 0;
 }

@@ -3,19 +3,10 @@ body {
 }
 #sectionA {
 	background: blue;
-
-	width: 33%;
-	display: inline-block;
 }
 #sectionB {
 	background: red;
-
-	width: 33%;
-	display: inline-block;
 }
 #sectionC {
 	background: green;
-
-	width: 33%;
-	display: inline-block;
 }
